@@ -2,9 +2,50 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,inital-scale 1.0">
+        <meta content="width=device-width; initial scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="product-style.css">
+        <script src="https://kit.fontawesome.com/4ac4a9c811.js" crossorigin="anonymous"></script>
+        <title>Shop - Dashboard</title>
     </head>
     <body>
-        <h1>Test</h1>
+        <header class="header"  class="header">
+            <img src="content picture.png" width="170px" height="80px" style="margin-top: 3px;">
+        <div class="header-fragment">
+            <input placeholder="search" type="search" id="search">
+            <i class="fa-solid fa-cart-shopping" id="cart"></i>
+            <i class="fa-regular fa-user" id="user"></i>
+        </div>
+        </header>
+
+        <div class="filters">
+        <select class="dropdown" id="selection">
+            <option disabled selected hidden> See categories</option>
+            <option value="Hoodies" class="dropdown-option">Hoodies</option>
+            <option value="Shirts" class="dropdown-option">Shirts</option>
+            <option value="Nikes" class="dropdown-option">Nikes</option>
+            <option value="Jackets" class="dropdown-option">Jackets</option>
+            <option value="Accessories" class="dropdown-option">Accessories</option>
+        </select>
+        <div>
+
+        <a href="/login/login.html">Log out</a>
+        </div>
+    </div>
+
+        <main>
+            <div class="main-fragment">
+                <div class="shoping-content">
+                    </div>
+        </main>
+
+        <footer>
+            <p> Copyright ©, All right reserved</p>
+        </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>
